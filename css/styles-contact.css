@@ -37,14 +37,14 @@ nav li {
     padding-right: 10px;
     text-align: center;
     text-decoration: none;
-
+    
 }
 
 .nav-links:link {
     display: inline-block;
     color: #ffb366;
     text-decoration: none;
-
+    
 }
 
 .nav-links:visited {
@@ -75,49 +75,40 @@ nav li {
 
 
 /*--- gallery nav----*/
-
 .gallery a:link {
     opacity: 1;
     filter: alpha(opacity=100);
 }
-
 .gallery a:visited {
     opacity: 1;
     filter: alpha(opacity=100);
 }
-
 .gallery a:hover {
     opacity: .6;
     filter: alpha(opacity=60);
     transition: opacity 1s;
 }
-
 li {
     list-style-type: none;
 }
-
 header {
     background-color: #ffffff;
     min-height: 50px;
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
 }
-
 article {
     background-color: #ffffff;
     font-family: 'Indie Flower', cursive;
     padding-bottom: 20px;
 }
-
 section {}
-
 footer {
     text-align: center;
     color: #999999;
     min-height: 50px;
     clear: both;
 }
-
 h1 {
     background-color: #ffffff;
     color: #ffb366;
@@ -129,7 +120,6 @@ h1 {
     padding-top: 50px;
     text-align: center;
 }
-
 h2 {
     background-color: #ffffff;
     color: #737373;
@@ -140,7 +130,6 @@ h2 {
     padding-top: 2px;
     text-align: center;
 }
-
 h3 {
     background-color: #ffffff;
     color: #737373;
@@ -151,21 +140,21 @@ h3 {
     padding-left: 40px;
     padding-top: 15px;
 }
-
 p {
     color: #4C4C4C;
     font-size: 80%;
     padding: 20px;
     font-family: "Hoefler-Text", "Lucida-Bright", "Book-Antiqua", serif;
     text-align: center;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
 }
-
 .reference-image {
     left: 30px;
     position: relative;
     padding: 10px 10px 15px 0;
 }
-
 .gallery figure {
     height: 175px;
     float: left;
@@ -173,16 +162,13 @@ p {
     width: 9%;
     padding-bottom: 40px;
     text-align: center;
-    display: inline-block;
 }
-
 figcaption {
     color: #ffb366;
     font-size: 110%;
     padding-left: 60px;
     display: inline-block;
 }
-
 figure {
     text-align: center;
 }
