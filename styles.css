@@ -40,7 +40,6 @@ nav li {
 }
 
 .nav-links:link {
-    display: inline-block;
     color: #ffb366;
     text-decoration: none;
 
