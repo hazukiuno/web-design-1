@@ -47,7 +47,7 @@ nav li {
 
 }
 
-.nav-links:visited {
+.nav-links a:visited {
     color: #999999;
     font-family: 'Indie Flower', cursive;
     text-decoration: none;
