@@ -52,29 +52,44 @@ nav li {
     
 }
 
-.nav-links:visited {
+.nav-links a:visited {
     color: #999999;
     font-family: 'Indie Flower', cursive;
     text-decoration: none;
 }
 
-.nav-links:hover {
+.nav-links a:hover {
     opacity: 0.4;
     filter: alpha(opacity=40);
 }
-.social-links {
+.social-links:link {
     display: inline-block;
     padding-bottom: 2px;
-    
     padding-top: 2px;
     min-height: 100px;
     text-align: center;
 }
 
-.social-links:hover {
+.social-links a:hover {
     color: transparent;
 }
 
+
+.header-nav a:link {
+    text-decoration: none;
+    color: #ffb366;
+    
+}
+
+.header-nav a:visited {
+     text-decoration: none;
+     color: #ffb366;
+}
+
+.header-nav a:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
 
 li {
     list-style-type: none;
