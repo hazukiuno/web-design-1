@@ -58,13 +58,16 @@ nav li {
     filter: alpha(opacity=40);
 }
 
-.social-links:link {
+.social-links a:link {
     display: inline-block;
     padding-bottom: 2px;
     padding-left: 50px;
     padding-top: 2px;
     min-height: 100px;
     text-align: center;
+    
+    
+    
 }
 
 .social-links a:hover {
@@ -123,7 +126,7 @@ article {
     padding-bottom: 20px;
 }
 
-section {}
+
 
 footer {
     text-align: center;
@@ -192,11 +195,38 @@ p {
 
 figcaption {
     color: #ffb366;
-    font-size: 110%;
-    padding-left: 60px;
+    font-family: "Hoefler-Text", "Lucida-Bright", "Book-Antiqua", serif;
+    font-size: 90%;
+    padding-left: 70px;
     display: inline-block;
 }
 
 figure {
     text-align: center;
+}
+
+/*----video------*/
+
+#vid { 
+text-align: center;
+
+}
+
+#vidpause {
+position: relative;
+margin-top: 5%;
+margin-left: 5%;
+font-size: 1.0em;
+color: white;
+background-color: #ffb366;
+background: square;
+border: 0 none;
+cursor: pointer;
+border-radius: 3px;
+}
+
+#vid { transition: 1s opacity; 
+}
+
+.stopfade { opacity: .5; 
 }
