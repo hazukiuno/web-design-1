@@ -86,7 +86,7 @@ nav li {
      color: #ffb366;
 }
 
-.header-nav a:hover {
+.header-nav a:hover{
     opacity: 0.4;
     filter: alpha(opacity=40);
 }
