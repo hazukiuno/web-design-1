@@ -37,6 +37,7 @@ nav li {
     padding-right: 10px;
     text-align: center;
     text-decoration: none;
+    position: relative;   
 
 }
 
@@ -58,22 +59,39 @@ nav li {
     filter: alpha(opacity=40);
 }
 
+/*----social links-----*/
+
+
+
 .social-links a:link {
+     text-decoration: none;
     display: inline-block;
-    padding-bottom: 2px;
-    padding-left: 50px;
-    padding-top: 2px;
-    min-height: 100px;
+    padding-top: 100px;
+    min-height: 10px;
     text-align: center;
-    
-    
-    
+    text-decoration: none;
+    position: relative; 
 }
+
+.social-links ul {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-links li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;   
+}
+
 
 .social-links a:hover {
     opacity: 0.4;
     filter: alpha(opacity=40);
 }
+
 
 .header-nav a:link {
     text-decoration: none;
@@ -81,12 +99,14 @@ nav li {
     
 }
 
+/*----header links-----*/
+
 .header-nav a:visited {
      text-decoration: none;
      color: #ffb366;
 }
 
-.header-nav a:hover{
+.header-nav a:hover {
     opacity: 0.4;
     filter: alpha(opacity=40);
 }
@@ -108,6 +128,41 @@ nav li {
     filter: alpha(opacity=60);
     transition: opacity 1s;
 }
+
+
+/*----sub nav------*/
+
+nav li,
+.sub-nav {
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+nav li a{
+    color: #ffb366;
+    display: block;
+    text-decoration: none;
+   
+}
+
+nav li .sub-nav li {
+    display: none;
+}
+
+nav li a:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    transition: background-color .5s;
+}
+
+nav li:hover .sub-nav li {
+    display: block;
+
+}
+
+/*----sub nav------*/
+
 
 li {
     list-style-type: none;
@@ -131,8 +186,9 @@ article {
 footer {
     text-align: center;
     color: #999999;
-    min-height: 50px;
+    min-height: 20px;
     clear: both;
+
 }
 
 h1 {
@@ -141,8 +197,6 @@ h1 {
     font-family: 'Fredericka the Great', cursive;
     font-size: 600%;
     padding-bottom: 25px;
-    padding-left: 35px;
-    padding-right: 10px;
     padding-top: 50px;
     text-align: center;
 }
@@ -153,7 +207,6 @@ h2 {
     font-family: "Hoefler-Text", "Lucida-Bright", "Book-Antiqua", serif;
     font-size: 1.75em;
     padding-bottom: 2px;
-    padding-left: 30px;
     padding-top: 2px;
     text-align: center;
 }
@@ -178,55 +231,35 @@ p {
 }
 
 .reference-image {
-    left: 30px;
     position: relative;
-    padding: 10px 10px 15px 0;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid; 
+    margin-top: 10px;
+    
 }
 
 .gallery figure {
     height: 175px;
-    float: left;
-    margin: 80px;
-    width: 9%;
-    padding-bottom: 40px;
+    margin: 70px;
+    width: 70px;
     text-align: center;
     display: inline-block;
+   
 }
 
 figcaption {
     color: #ffb366;
     font-family: "Hoefler-Text", "Lucida-Bright", "Book-Antiqua", serif;
     font-size: 90%;
-    padding-left: 70px;
+    float: top;
+    padding-left: 100%;
     display: inline-block;
+    
 }
 
 figure {
     text-align: center;
+    width: 100%;
 }
 
-/*----video------*/
-
-#vid { 
-text-align: center;
-
-}
-
-#vidpause {
-position: relative;
-margin-top: 5%;
-margin-left: 5%;
-font-size: 1.0em;
-color: white;
-background-color: #ffb366;
-background: square;
-border: 0 none;
-cursor: pointer;
-border-radius: 3px;
-}
-
-#vid { transition: 1s opacity; 
-}
-
-.stopfade { opacity: .5; 
-}
