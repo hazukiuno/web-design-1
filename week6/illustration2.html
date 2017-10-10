@@ -5,6 +5,9 @@
     <meta charset="utf-8" />
     <title>Hazuki Uno Portfolio Site</title>
     <link rel="stylesheet" href="css/styles.css" media="all">
+    <link rel="stylesheet" href="css/fotorama.css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/fotorama.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
@@ -55,8 +58,12 @@
 
 
         <section>
-            <img class="reference-image" src="img/fashion1.jpg" width="500" height="773" alt="Fashion drawing 1" />
-            <img class="reference-image" src="img/fashion2.jpg" width="500" height="625" alt="Fashion drawing 2" />
+            <div class="fotorama" data-width="80%" data-ratio="1142 /857">
+                
+                <img class="reference-image" src="img/fashion1.jpg" width="500" height="773" alt="Fashion drawing 1" />
+                <img class="reference-image" src="img/fashion2.jpg" width="500" height="625" alt="Fashion drawing 2" />
+                
+            </div>
         </section>
     </article>
     <nav>
