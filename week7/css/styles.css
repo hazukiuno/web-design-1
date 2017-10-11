@@ -149,6 +149,10 @@ nav li:hover .sub-nav li {
 
 }
 
+nav li .sub-nav li:last-child {
+    display: none;
+}
+
 /*-------------*/
 
 li {
