@@ -20,8 +20,9 @@ nav {
     background-color: #ffffff;
     font-family: 'Indie Flower', cursive;
     font-size: 115%;
-    min-height: 160px;
+    min-height: 170px;
     width: 100%;
+    
 }
 
 .nav-links ul {
