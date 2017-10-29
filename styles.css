@@ -21,8 +21,9 @@ nav {
     font-family: 'Indie Flower', cursive;
     font-size: 115%;
     padding-bottom: 2px;
-    padding-top: 2px;
+    padding-top: 4px;
     min-height: 50px;
+   
 }
 
 nav ul {
@@ -36,18 +37,18 @@ nav li {
     padding-right: 10px;
     text-align: center;
     text-decoration: none;
+    margin: 5px;
 
 }
 
-.nav-links:link {
+.nav-links a:link {
     color: #ffb366;
     text-decoration: none;
 
 }
 
-.nav-links:visited {
+.nav-links a:visited {
     color: #999999;
-    font-family: 'Indie Flower', cursive;
     text-decoration: none;
 }
 
@@ -101,7 +102,7 @@ h2 {
     color: #737373;
     font-family: "Hoefler-Text", "Lucida-Bright", "Book-Antiqua", serif;
     font-size: 1.75em;
-    padding-bottom: 2px;
+    padding-bottom: 5px;
     padding-left: 30px;
     padding-top: 2px;
     text-align: center;
